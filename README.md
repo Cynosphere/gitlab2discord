@@ -21,3 +21,16 @@ Gitlab webhook formatter for Discord
     - Issues
     - Notes/Comments
 - (Optional but recommended) Test webhook
+
+## Resources
+**Example nginx config:**
+```nginx
+server {
+    listen 80;
+    server_name g2d.yourdomain.com;
+    
+    location / {
+        proxy_pass http://localhost:8000;
+    }
+}
+```
