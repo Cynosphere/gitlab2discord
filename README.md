@@ -1,7 +1,7 @@
 # gitlab2discord
 Gitlab webhook formatter for Discord
 
-## Instal
+## Install
 - `git clone` this repo
 - Run `npm install`
 
